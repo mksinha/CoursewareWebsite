@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26020.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CoursewareWebsite", "CoursewareWebsite\CoursewareWebsite.pyproj", "{C6A93ACD-7474-4F98-BA7E-8C73606B20DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6A93ACD-7474-4F98-BA7E-8C73606B20DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A93ACD-7474-4F98-BA7E-8C73606B20DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A93ACD-7474-4F98-BA7E-8C73606B20DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A93ACD-7474-4F98-BA7E-8C73606B20DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
