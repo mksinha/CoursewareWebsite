@@ -1,0 +1,11 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>Study Progress</h1>
+    <p class="lead">You come here to know what courses were you working on and how you were doing.</p>
+    <p><a href="{% url 'coursesearch' %}" class="btn btn-primary btn-large">Search Courses &raquo;</a></p>
+</div>
+
+{% endblock %}

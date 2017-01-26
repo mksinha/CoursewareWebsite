@@ -36,6 +36,16 @@
     <Compile Include="app\views.py" />
     <Compile Include="app\__init__.py" />
     <Compile Include="app\migrations\__init__.py" />
+    <Compile Include="courses\admin.py" />
+    <Compile Include="courses\apps.py" />
+    <Compile Include="courses\migrations\__init__.py" />
+    <Compile Include="courses\models.py" />
+    <Compile Include="courses\tests.py" />
+    <Compile Include="courses\urls.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="courses\views.py" />
+    <Compile Include="courses\__init__.py" />
     <Compile Include="manage.py" />
     <Compile Include="CoursewareWebsite\__init__.py" />
     <Compile Include="CoursewareWebsite\settings.py" />
@@ -52,9 +62,16 @@
     <Folder Include="app\static\app\scripts\" />
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
+    <Folder Include="courses\" />
+    <Folder Include="courses\migrations\" />
+    <Folder Include="courses\templates\" />
+    <Folder Include="courses\templates\courses\" />
     <Folder Include="CoursewareWebsite\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="courses\templates\courses\course.html" />
+    <Content Include="courses\templates\courses\search.html" />
+    <Content Include="courses\templates\courses\index.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />

@@ -1,0 +1,11 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>Course Home</h1>
+    <p class="lead">Course home for {{ courseid }} in {{ subject }}</p>
+    <p><a href="{% url 'coursesearch' %}" class="btn btn-primary btn-large">Search Courses &raquo;</a></p>
+</div>
+
+{% endblock %}
